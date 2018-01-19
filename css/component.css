@@ -84,12 +84,12 @@
 	background: rgba(255,248,213,0.1);
 }
 
-.dl-menuwrapper li.dl-back > a {
+.dl-menuwrapper li.dl-return > a {
 	padding-left: 30px;
 	background: rgba(0,0,0,0.1);
 }
 
-.dl-menuwrapper li.dl-back:after,
+.dl-menuwrapper li.dl-return:after,
 .dl-menuwrapper li > a:not(:only-child):after {
 	position: absolute;
 	top: 0;
@@ -100,7 +100,7 @@
 	content: "\e000";
 }
 
-.dl-menuwrapper li.dl-back:after {
+.dl-menuwrapper li.dl-return:after {
 	left: 10px;
 	color: rgba(212,204,198,0.3);
 	-webkit-transform: rotate(180deg);
